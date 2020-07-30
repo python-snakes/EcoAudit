@@ -1108,10 +1108,10 @@ def Pdf_Report_Week():
         pdf.setFont("VeraBd", 8)
         pdf.drawString(70, 300, filename_2)
         ############################################### Logo Emplacements ###################################################################
-        #pdf.drawInlineImage(fr"Capteurs_plafond_Rossens.jpg", 40, 380, width=450, height=200)
-        #pdf.drawInlineImage(fr"Capteurs_en_glace_Rossens.jpg", 10, 600, width=250, height=100)
-        #pdf.drawInlineImage(fr"Compass.jpg", 280, 630, width=50, height=50, anchor='n')
-        #pdf.drawInlineImage(fr"Capteurs_filets_Rossens.jpg", 350, 602, width=250, height=100)
+        pdf.drawInlineImage(fr"Capteurs_plafond_Rossens.jpg", 40, 380, width=450, height=200)
+        pdf.drawInlineImage(fr"Capteurs_en_glace_Rossens.jpg", 10, 600, width=250, height=100)
+        pdf.drawInlineImage(fr"Compass.jpg", 280, 630, width=50, height=50, anchor='n')
+        pdf.drawInlineImage(fr"Capteurs_filets_Rossens.jpg", 350, 602, width=250, height=100)
         ############################################### Line ###################################################################
         pdf.setLineWidth(1)
         pdf.line(15,80,580,80)
